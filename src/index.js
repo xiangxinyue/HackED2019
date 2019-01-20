@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< Updated upstream
+=======
+import logo from './damion_icon.png';
+>>>>>>> Stashed changes
 import './App.css';
 
 class App extends Component {
@@ -7,10 +11,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to the main page</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started.
         </p>
         <a href="pageF/index.html">pageF</a>
         {/* <div>
