@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 //import responsiveVoice from 'responsivevoice';
 import './App.css';
+import logo from '../aArrow.png';
 
 class PageF extends Component {
 
@@ -25,6 +26,10 @@ class PageF extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <div className="instructions">
+          <h1 className="clickhere"> CLICK HERE TO HEAR </h1>
+          <img src={logo} className="arrow" alt="" />
+          </div>
           <p onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
           </p>
           <div className="button-container">
