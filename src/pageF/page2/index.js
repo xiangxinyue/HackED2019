@@ -10,8 +10,8 @@ class Page0 extends Component {
           <h1 className="App-title">Page0</h1>
         </header>
 				<div><a href="/index.html">to home</a></div>
+        <div><a href="./../page0/index.html">to page0</a></div>
 				<div><a href="./../page1/index.html">to page1</a></div>
-        <div><a href="./../page2/index.html">to page2</a></div>
       </div>
     );
   }
