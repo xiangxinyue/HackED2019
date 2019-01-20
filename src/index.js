@@ -9,15 +9,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to the main page</h1>
+          <h1 className="App-title">Welcome to Adventure Cat Damion!</h1>
+
+          <div className="button-container">
+          <button id="#pageF"><a href="./pageF/index.html">START!</a></button>
+          </div>
+
         </header>
-        <p className="App-intro">
-          To get started.
-        </p>
-        <a href="pageF/index.html">pageF</a>
-        {/* <div>
-          <a href="pageS/index.html">pageS</a>
-        </div> */}
+
       </div>
     );
   }
