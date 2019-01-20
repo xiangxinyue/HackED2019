@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< Updated upstream
-=======
 import logo from './damion_icon.png';
->>>>>>> Stashed changes
 import './App.css';
 
 class App extends Component {
