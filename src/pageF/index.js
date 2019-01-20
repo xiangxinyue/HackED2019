@@ -13,7 +13,6 @@ class PageF extends Component {
 				{/* <div><a href="src/PageS/index.html">to pageS</a></div> */}
 				<div><a href="./page0/index.html">to page0</a></div>
 				<div><a href="./page1/index.html">to page1</a></div>
-        <div><a href="./page2/index.html">to page2</a></div>
       </div>
     );
   }

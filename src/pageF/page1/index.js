@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
+import logo from './damion_lay_on_couch.png';
 import './App.css';
 
 class Page1 extends Component {
@@ -7,11 +8,11 @@ class Page1 extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Page1</h1>
         </header>
 				<div><a href="/index.html">to home</a></div>
 				<div><a href="./../page0/index.html">to page0</a></div>
-        <div><a href="./../page2/index.html">to page2</a></div>
       </div>
     );
   }
