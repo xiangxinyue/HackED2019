@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd.css';
-import {Tag} from 'antd'
 
-export default class Home extends React.Component
-{
-    render()
-    {
-        return (
-            <div>
-                <h1>this is the home page</h1>
-                <Tag color="red"><a href="./page1.html">page1</a></Tag>
-                <Tag color="green"><a href="./page2.html">page2</a></Tag>
-            </div> 
-        );
-    }
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a href="pageF/index.html">pageF</a>
+        <div>
+          <a href="pageS/index.html">pageS</a>
+        </div>
+      </div>
+    );
+  }
 }
 
-ReactDOM.render(<Home/>, document.getElementById('home'));
+ReactDOM.render(<App />, document.getElementById('root'));
