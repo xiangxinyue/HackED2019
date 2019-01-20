@@ -79,3 +79,6 @@ a{
     font-family: "Comic Sans MS";
   
   }
+.story-paragraph:hover{
+  color: #D50A24;
+}

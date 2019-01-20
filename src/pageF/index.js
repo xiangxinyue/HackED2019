@@ -35,7 +35,7 @@ class PageF extends Component {
           <h1 className="clickhere"> CLICK HERE TO HEAR </h1>
           <img src={logo} className="arrow" alt="" />
           </div>
-          <p onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
+          <p className="story-paragraph" onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
           </p>
           <div className="button-container">
           <button id="#pageF-choiceA"><a href="./page0/index.html">Eat more food</a></button>

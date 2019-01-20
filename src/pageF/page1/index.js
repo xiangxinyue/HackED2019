@@ -28,9 +28,9 @@ class Page1 extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
+          <p className="story-paragraph" onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
           </p>
-          <p onClick={() => this.handleClick(this.state.msg2)}> {this.state.msg2}
+          <p className="story-paragraph" onClick={() => this.handleClick(this.state.msg2)}> {this.state.msg2}
           </p>
           <div className="button-container">
           <button id="#pageF-choiceA"><a href="./page0/index.html">Search for crumbs in the food bowl.</a></button>
