@@ -31,3 +31,7 @@
         transform: rotate(360deg);
     }
 }
+
+.story-paragraph:hover{
+  color: #D50A24;
+}

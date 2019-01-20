@@ -78,5 +78,8 @@ button:hover {
 p{
   text-transform: uppercase;
   font-family: "Comic Sans MS";
+}
 
+.story-paragraph:hover{
+  color: #D50A24;
 }
