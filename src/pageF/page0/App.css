@@ -6,8 +6,8 @@
     animation: App-logo-spin infinite 20s linear;
     height: 40vmin;
     border-radius: 50%;
-    size: 2cm;
-    padding: 20px;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
 
 .App-header {
@@ -38,7 +38,7 @@ a{
     color:white;
     text-decoration: none;
   }
-  
+
   button{
     background:none;
     color:white;
@@ -47,18 +47,20 @@ a{
     border-style: dashed;
     display:inline-block;
     font-size:80%;
+    margin-top: 3%;
+    margin-bottom: 10%;
   }
-  
-  
+
+
   /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
   button:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
-  
+
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
   }
-  
+
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -72,9 +74,18 @@ a{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  
+
   p{
     text-transform: uppercase;
     font-family: "Comic Sans MS";
-  
+  }
+
+  .story-paragraph:hover{
+    color: #D50A24;
+  }
+
+  .stop-speak{
+    position: absolute;
+    top: 5%;
+    right: 3%;
   }

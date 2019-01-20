@@ -16,20 +16,29 @@ class Page1 extends Component {
   }
 
   handleClick(msg){
-    console.log("TEST");
+    if (speechSynthesis.speaking){
+      speechSynthesis.cancel();
+    }
     let synt = new SpeechSynthesisUtterance(msg);
     synt.lang = 'en-GB';
     speechSynthesis.speak(synt);
   }
 
+  handleStopSpeak(){
+    if (speechSynthesis.speaking){
+      speechSynthesis.cancel();
+    }
+  }
 
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <p onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
+          <button className="stop-speak" onClick={() => this.handleStopSpeak()}> Want silence? Click here! </button>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p className="story-paragraph" onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
           </p>
-          <p onClick={() => this.handleClick(this.state.msg2)}> {this.state.msg2}
+          <p className="story-paragraph" onClick={() => this.handleClick(this.state.msg2)}> {this.state.msg2}
           </p>
           <div className="button-container">
           <button id="#pageF-choiceA"><a href="./page0/index.html">Search for crumbs in the food bowl.</a></button>

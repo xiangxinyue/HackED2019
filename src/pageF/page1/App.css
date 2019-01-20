@@ -78,5 +78,14 @@ button:hover {
 p{
   text-transform: uppercase;
   font-family: "Comic Sans MS";
+}
 
+.story-paragraph:hover{
+  color: #D50A24;
+}
+
+.stop-speak{
+  position: absolute;
+  top: 5%;
+  right: 3%;
 }
