@@ -9,7 +9,7 @@ class PageF extends Component {
           <h1 className="App-title">PageF</h1>
         </header>
 				<div><a href="/index.html">to home</a></div>
-				<div><a href="/PageS/index.html">to pageS</a></div>
+				{/* <div><a href="src/PageS/index.html">to pageS</a></div> */}
 				<div><a href="./page0/index.html">to page0</a></div>
 				<div><a href="./page1/index.html">to page1</a></div>
       </div>

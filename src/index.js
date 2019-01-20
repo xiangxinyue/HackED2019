@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -12,9 +13,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <a href="pageF/index.html">pageF</a>
-        <div>
+        {/* <div>
           <a href="pageS/index.html">pageS</a>
-        </div>
+        </div> */}
       </div>
     );
   }
