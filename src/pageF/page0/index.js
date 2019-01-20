@@ -59,8 +59,8 @@ class Page0 extends Component {
           </p>
         
           <div className="button-container">
-          <button id="#pageF-choiceA"><a href="./page0/index.html">Eat more food</a></button>
-          <button id='#pageF-choiceB'><a href="./page1/index.html">Scratch owner</a></button>
+          <button id="#pageF-choiceA"><a href="./page0/index.html">Search for crumbs in food bowl</a></button>
+          <button id='#pageF-choiceB'><a href="./page1/index.html">Search for crumbs in pantry</a></button>
           <button id="#pageF-choiceC"><a href="/index.html">Go back to the beginning!</a></button>
           </div>
 
