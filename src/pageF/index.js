@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-//import responsiveVoice from 'responsivevoice';
 import './App.css';
 import logo from '../aArrow.png';
 
@@ -16,7 +15,13 @@ class PageF extends Component {
   }
 
   handleClick(msg){
-    console.log("TEST");
+    {/*Runs built-in browser Speech Synthesis API for Text-to-Speech functionality
+      whenever the story text (NOT the buttons) are clicked!
+      For more documentation: see the following:
+      - https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis
+      - https://flaviocopes.com/speech-synthesis-api/
+      - https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
+       */}
     let synt = new SpeechSynthesisUtterance(msg);
     synt.lang = 'en-GB';
     speechSynthesis.speak(synt);

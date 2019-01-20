@@ -27,6 +27,7 @@ class Page1 extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
           <p onClick={() => this.handleClick(this.state.msg)}> {this.state.msg}
           </p>
           <p onClick={() => this.handleClick(this.state.msg2)}> {this.state.msg2}
