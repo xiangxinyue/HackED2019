@@ -42,7 +42,7 @@ $cd my-app/yarn start
 
 # File Descriptions
 
-my-app (HackED2019)
+``` my-app (HackED2019)
 ├── README.md
 ├── node_modules 
 ├── package.json
@@ -72,6 +72,7 @@ my-app (HackED2019)
     ├── index.html
     ├── PageS
     └── PageF
+```
 
     
 1. package.json:
