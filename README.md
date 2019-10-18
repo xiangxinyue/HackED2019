@@ -85,11 +85,13 @@ a.favicon.ico
 It is the icon on the browser tab, which is also a sign of this project, or it can be said to represent a company logo. Can be replaced.
 
 b.index.html
+
 The entry file of the project, citing the third-party library, can also introduce cdn
 <div id="root"></div> is the total container for the project, and all content is stored in this container. This container has one and only one.
 
 3. src:
 a.index.js
+
 It is the core content of this project, which is our main work area. Among them, the index.js file is the only interface of the file associated with index.html.
 
 The content structure of index.js:
