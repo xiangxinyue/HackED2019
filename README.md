@@ -18,15 +18,15 @@ Basic HTML, CSS, JS, Linux, Git.
 # Prepare the Environment
 ## Npm
 We need to setup the ReactJS on our machine. I wrote this guide for MacOS.
-(1) Since you are going to use JavaScript for your React development on MacOS, there is no way around Node.js and NPM. 
-(2) Download Node.js and NPM.
-(3) Run this line in the terminal : $npm install -g create-react-app.
-(4) You can check its version again on the command line : $create-react-app --version.
-(5) You can use create-react-app by passing the name of your application to it on the command line:
+1. Since you are going to use JavaScript for your React development on MacOS, there is no way around Node.js and NPM. 
+2. Download Node.js and NPM.
+3. Run this line in the terminal : $npm install -g create-react-app.
+4. You can check its version again on the command line : $create-react-app --version.
+5. You can use create-react-app by passing the name of your application to it on the command line:
 $create-react-app my-app.
-(6) Afterward, you can navigate into the project on the command line and start it with npm:
+6. Afterward, you can navigate into the project on the command line and start it with npm:
 $cd my-app/npm start
-(7) Finish set the environment.
+7. Finish set the environment.
 
 
 ## Yarn
