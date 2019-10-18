@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-#see it online
 import logo from './damion_lay_on_couch.png';
 import './App.css';
 
