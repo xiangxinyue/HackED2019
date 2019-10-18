@@ -130,18 +130,20 @@ className="App" is a style referenced to App.css. Note that the page content sty
 
 There are two ways to render content, the jsx syntax (the default content above) and the React.createElement method.
 
+## ReactDOM this is the important part I think for the beginning learning of React 
 
-# How to design the coding structure
-# ReactDOM this is the important part I think in this project
-[image]
+I think it is really important to make a good structure at the beginning. In the project, you can see we using this api everywhere.
 
-# Demo
+ReactDOM.render is the most basic method of React for converting templates into HTML and inserting the specified DOM nodes. ReactDOM.render(template, targetDOM), this method takes two parameters: the first one is the created template, the outer layer of multiple dom elements needs to be wrapped with a label, such as <div>; the second parameter is to insert the template The target location. To add a class attribute to an element you create, you can't define a class directly and use className because class is a reserved word in javascript. For example, add className to input and change the style:
+ReactDOM.render is the most basic method of React for converting templates into HTML and inserting the specified DOM nodes. ReactDOM.render(template, targetDOM), this method takes two parameters: the first one is the created template, the outer layer of multiple dom elements needs to be wrapped with a label, such as <div>; the second parameter is to insert the template The target location. To add a class attribute to an element you create, you can't define a class directly and use className because class is a reserved word in javascript.
 
-[Video]
+# How to design the code structure for this project
 
+Since we already have the scripts and just implement it into code. I designed a simple structure that can allow user click the button and change the page. Also the user can chosse go back to the previous page and next page also a main page. To be more specific, I did it in the PageS and PageF.
 
 # How to update/evolve this application in the future
 
+Since we did some scripts and we can make the game more and more by adding more pages and adding more page change button. So the game will be continue. Maybe in the future, it can also be a game the user can play with a animation cat. That's the power of React.
 
 # Some questions may meet
 (1)How to test? npm test or yarn test
@@ -153,5 +155,5 @@ The build is minified and the filenames include the hashes.
 
 # Conclusion 
 
-
+All in all, React is a library I really like because of its efficiency and flexibility. I believe that software engineering exists not for coding, but for creating better products and bringing people a better life. I will continue to learn, including React Native.
 
