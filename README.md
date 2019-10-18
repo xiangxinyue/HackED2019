@@ -31,11 +31,11 @@ $cd my-app/npm start
 
 ## Yarn
 I found that yarnlock is good to use than npm
-(1) Using the npm to install the yarn : $npm install -g yarn.
-(2) Using the command to check the version : $yarn -v.
-(3) You can use create-react-app by passing the name of your application to it on the command line : 
+1. Using the npm to install the yarn : $npm install -g yarn.
+2. Using the command to check the version : $yarn -v.
+3. You can use create-react-app by passing the name of your application to it on the command line : 
 $yarn create react-app my-app
-(4) Afterward, you can navigate into the project on the command line and start it with yarn:
+4. Afterward, you can navigate into the project on the command line and start it with yarn:
 $cd my-app/yarn start
 
 
@@ -76,11 +76,12 @@ my-app (HackED2019)
 ```
 
     
-1. package.json:
+## 1) package.json:
 This file is a dependency package for managing downloads. The "react" library is often used in projects, and "react-dom" (jsx syntax is rendered to dom)
 The most important command in the project is "start" to start the project, the role of "bulid" is to package the project.
 
-2. public:
+## 2) public:
+
 a.favicon.ico
 It is the icon on the browser tab, which is also a sign of this project, or it can be said to represent a company logo. Can be replaced.
 
@@ -90,7 +91,7 @@ The entry file of the project, citing the third-party library, can also introduc
 <div id="root"></div> is the total container for the project, and all content is stored in this container. This container has one and only one.
 
 
-3. src:
+## 3) src:
 
 a.index.js
 
